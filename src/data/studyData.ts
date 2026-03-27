@@ -2,6 +2,23 @@ export type CardMode = 'question' | 'term';
 
 export type RevealMode = 'toggle' | 'always-visible';
 
+/**
+ * StudyCard - Bir çalışma kartı için gereken tüm alanlar
+ * 
+ * Her alan neyin ne olduğu:
+ * - id: Kartın benzersiz numarası (örnek: "card-1", "card-2")
+ * - mode: Kartın türü - 'term' (tanım kartı) veya 'question' (soru kartı)
+ * - badge: Kartın başında gösterilen etiket (TERIM veya SORU yazısı)
+ * - shown: Kartın ön yüzünde gösterilen metin (tanım veya soru)
+ * - answer: Kartın arka yüzünde gösterilen cevap (terim adı veya soru cevabı)
+ * - reveal: Cevabın görünüş şekli
+ *           - 'toggle': Gizli başlar, butona tıklanınca görülür
+ *           - 'always-visible': Her zaman açıkta görülür
+ * - original: Orijinal kaynağı saklamak için (back-up amaçlı, değiştirilmemeli)
+ *             - sourceLeft: Orijinal sol sütun verisi
+ *             - sourceRight: Orijinal sağ sütun verisi  
+ *             - sourceType: 'plain' (tanım) veya 'question' (soru)
+ */
 export interface StudyCard {
   id: string;
   mode: CardMode;
@@ -16,20 +33,23 @@ export interface StudyCard {
   };
 }
 
-// question: question shown + answer always visible | term: definition shown + term hidden
-// original fields are preserved to avoid losing legacy source data
+// ALT NOTLAR:
+// - Soru kartları (mode: 'question'): Kartta soru yazısı (shown) -> cevap (answer) şeklinde çalışır
+// - Tanım kartları (mode: 'term'): Kartta tanım açıklaması (shown) -> terim adı (answer) şeklinde çalışır
+// - original alanları: Başlangıç verilerini saklıyor, düzenleyiciler bunları DEĞIŞTİRMESİN
 export const studyCards: StudyCard[] = [
   {
+    // Eğer değiştiriyorsanız, bu alanları AYNI FORMATTA YAZILAR VE ÇEKMEMEYIN ÖNEMLİ!
     "id": "card-1",
-    "mode": "term",
-    "badge": "TERIM",
-    "shown": "Bir kimseye bir eşya üzerinde doğrudan doğruya hâkimiyet sağlayan ve herkese karşı ileri sürülebilen haktır.",
-    "answer": "Aynî Hak",
-    "reveal": "toggle",
+    "mode": "term",                    // 'term' = tanım kartı | 'question' = soru kartı
+    "badge": "TERIM",                  // Gösterilecek etiket
+    "shown": "Bir kimseye bir eşya üzerinde doğrudan doğruya hâkimiyet sağlayan ve herkese karşı ileri sürülebilen haktır.",  // Kullanıcıya gösterilen metin
+    "answer": "Aynî Hak",              // Cevap/Tanım adı
+    "reveal": "toggle",                // 'toggle' = gizli başla | 'always-visible' = her zaman göster
     "original": {
       "sourceLeft": "Aynî Hak",
       "sourceRight": "Bir kimseye bir eşya üzerinde doğrudan doğruya hâkimiyet sağlayan ve herkese karşı ileri sürülebilen haktır.",
-      "sourceType": "plain"
+      "sourceType": "plain"            // Orijinal veri türü: 'plain' (tanım) veya 'question' (soru)
     }
   },
   {
