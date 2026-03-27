@@ -1,34 +1,28 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import studyCards from './data/studyData';
 import './App.css';
 
-function shuffleCards<T>(items: T[]): T[] {
-  const next = [...items];
-  for (let i = next.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [next[i], next[j]] = [next[j], next[i]];
-  }
-  return next;
+function getRandomCard(cards: typeof studyCards): typeof studyCards[0] {
+  return cards[Math.floor(Math.random() * cards.length)];
 }
 
 export default function App() {
-  const [cards] = useState(() => shuffleCards(studyCards));
-  const [index, setIndex] = useState(0);
+  const [currentCard, setCurrentCard] = useState(() => getRandomCard(studyCards));
   const [showAnswer, setShowAnswer] = useState(false);
   const [isTouchPrimary, setIsTouchPrimary] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const touchStartY = useRef<number | null>(null);
 
-  const current = useMemo(() => cards[index], [cards, index]);
+  const current = currentCard;
   const shouldToggleAnswer = current.reveal === 'toggle';
 
   const nextTerm = () => {
-    setIndex((prev) => (prev + 1) % cards.length);
+    setCurrentCard(getRandomCard(studyCards));
     setShowAnswer(false);
   };
 
   const previousTerm = () => {
-    setIndex((prev) => (prev - 1 + cards.length) % cards.length);
+    setCurrentCard(getRandomCard(studyCards));
     setShowAnswer(false);
   };
 
@@ -104,15 +98,15 @@ export default function App() {
     }
 
     if (deltaX > 0) {
-      nextTerm();
+      previousTerm();
       return;
     }
 
-    previousTerm();
+    nextTerm();
   };
 
   const controlsHint = isTouchPrimary
-    ? 'Kaydırma: Sağa kaydır → sonraki, sola kaydır → önceki'
+    ? 'Kaydırma: Sağa kaydır → önceki, sola kaydır → sonraki'
     : 'Klavye: ← önceki, → sonraki, Enter/Boşluk cevap';
 
   return (
@@ -151,7 +145,7 @@ export default function App() {
       <p className="controls-hint">{controlsHint}</p>
 
       <p className="counter">
-        {index + 1} / {cards.length}
+        ~ {studyCards.length} terim
       </p>
 
       <footer className="footer">Fıkıh Terimleri Kartları © 2026</footer>

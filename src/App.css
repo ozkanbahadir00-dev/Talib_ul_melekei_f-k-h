@@ -36,7 +36,7 @@ body {
   min-height: 100vh;
   max-width: 920px;
   margin: 0 auto;
-  padding: 52px 16px 28px;
+  padding: max(52px, env(safe-area-inset-top)) 16px max(28px, env(safe-area-inset-bottom));
   -webkit-backface-visibility: hidden;
   display: flex;
   flex-direction: column;
@@ -132,8 +132,8 @@ body {
 }
 
 .answer:not(.show) p {
-  filter: blur(12px);
-  opacity: 0.85;
+  filter: blur(6px);
+  opacity: 0.6;
   user-select: none;
 }
 
