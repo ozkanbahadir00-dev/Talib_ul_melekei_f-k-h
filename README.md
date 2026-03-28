@@ -1,1 +1,0 @@
-# Talib_ul_melekei_f-k-h
