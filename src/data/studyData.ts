@@ -584,6 +584,110 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Mün'akid Akit",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-44",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Mahmut, tapulu arsasında Osmanlı döneminden kalma bir kese altın bulur. Nurettin olaya şahit olur ve Kadı'ya ihbar eder. Mahmut altınları sahiplenmek ister. Hüküm nedir?",
+    "answer": "Kadı Hükmü: Altınlar 'Yitik Mal' (Lukata) hükmündedir.\nGerekçe: Üzerinde İslam mührü (Osmanlı) olan defineler ganimet değil, lukata sayılır. Mahmut, bu altınların zincirdeki en eski sahibine ulaşmak için elinden geleni yapmalı ve ilan süresi dolana kadar beklemelidir. Sahibi bulunamazsa, Mahmut adına değil, asıl sahibi sevabına fakirlere tasadduk edilir.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Mahmut tapulu arsasında Osmanlı altını bulur, Nurettin şahit olur. Mahmut sahiplenmek ister.",
+      "sourceRight": "Osmanlı mührü varsa 'Lukata'dır. Eski sahibine gidilir, bulunamazsa fakirlere hibe edilir.",
+      "sourceType": "question"
+    }
+  },
+  {
+    "id": "card-44",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Bir şahıs (gâsıp), komşusunun arazisini işgal edip üzerine kıymetli bir bina inşa eder. Arazi sahibi binanın yıkılmasını talep eder. Karar ne olur?",
+    "answer": "Kadı Hükmü: Bina yıkılmaz, arazi sahibi binayı bedeliyle devralır.\nGerekçe: 'Zarar-ı eşed, zarar-ı ahaff ile izale olunur.' Bilirkişi binanın yıkılmasının araziye veya milli servete büyük zarar vereceğini (fuhş-i kadr) rapor ederse; arazi sahibi binanın sökülmüş haldeki (enkaz) değerini gâsıba öder ve mülkiyeti birleştirir.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Gâsıp başkasının yerine bina yapar. Arazi sahibi yıkım ister.",
+      "sourceRight": "Yıkım büyük zararsa arazi sahibi enkaz bedelini ödeyip binayı alır. Değeri fazla olan az olanı satın alır.",
+      "sourceType": "question"
+    }
+  },
+  {
+    "id": "card-46",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Kıtlıkta aç kalan Yusuf, Hacı Ömer’in bahçesinden izinsiz meyve yiyerek çocuklarını doyurur. Hacı Ömer Yusuf'un cezalandırılmasını ister. Hüküm nedir?",
+    "answer": "Kadı Hükmü: Ceza verilmez (Had düşer) ancak tazminat şarttır.\nGerekçe: 'Iztırar gayrın hakkını iptal etmez' (Mecelle 33). Hayat hakkı mülkiyetin önüne geçtiği için Yusuf günahkar sayılmaz; ancak yediği meyvelerin bedelini Hacı Ömer'e ödemekle (tazminle) yükümlüdür.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Aç kalan Yusuf, Hacı Ömer'in bahçesinden meyve yer. Ceza ve tazminat durumu nedir?",
+      "sourceRight": "Zaruret günahı kaldırır ama kul hakkını yok etmez. Yusuf meyve bedelini tazmin eder.",
+      "sourceType": "question"
+    }
+  },
+  {
+    "id": "card-47",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Gümüşhane’de Hasan Efendi, mülk arazisinde gümüş madeni bulur. Maden nazırı el koymak ister. Kadı neye göre hüküm verir?",
+    "answer": "Kadı Hükmü: Arazi Hasan Efendi'nin mülkü ise maden onundur.\nGerekçe: Madenler mülkiyet altına alınabilir ve bulundukları arazinin statüsüne tabidir. Defter-i Hakani (tapu) kayıtları incelenir; arazi mülk ise Hasan Efendi beşte bir ($1/5$) vergi (humus) ödemek şartıyla madeni işletir. Vakıf veya devlet arazisi ise mülkiyet o kurumlara aittir.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Hasan Efendi mülk arazisinde gümüş madeni bulur. Maden nazırı el koyar.",
+      "sourceRight": "Maden arazinin statüsüne tabidir. Mülk ise beşte bir vergiyle şahsa aittir.",
+      "sourceType": "question"
+    }
+  },
+  {
+    "id": "card-48",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Kervancı Ali, 100 altın borcuna karşılık 150 altınlık atını Bekir’e rehin bırakır. At, Bekir’in kusuru olmadan yangında ölür. Borç ve fark ne olur?",
+    "answer": "Kadı Hükmü: Borç silinir, fark tazmin edilmez.\nGerekçe: Rehin alacaklının elinde helak olursa, borç rehnin değeri kadar sakıt olur (silinir). Atın borçtan fazla olan 50 altınlık kısmı Bekir'in elinde 'emanet' hükmündedir. Kusur yoksa emanet tazmin edilmez; Ali 50 altınlık farkı talep edemez.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "150 altınlık at, 100 altınlık borç için rehin verildi. At kusursuz helak oldu.",
+      "sourceRight": "Borç silinir. Fazla olan 50 altın emanet olduğu için ödenmez.",
+      "sourceType": "question"
+    }
+  },
+  {
+    "id": "card-49",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Heyelan sonucu yukarıdaki fındık bahçesi, aşağıdaki geniş ama işlenmemiş araziyle birleşip karışır. Ortaklık mı kurulur, yoksa mülkiyet el mi değiştirir?",
+    "answer": "Kadı Hükmü: Ortaklık kurulmaz; değeri fazla olan az olanı satın alır.\nGerekçe: Gayrimenkul karışmalarında mülkiyeti parçalamamak esastır. Eğer alttaki geniş arazinin değeri, yukarıdan gelen topraktan fazlaysa; alt arazi sahibi, üstten gelen toprak ve ağaçların bedelini ödeyerek arazinin tamamına malik olur.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Toprak kayması ile iki arazi karıştı. Ortaklık mı mülkiyet birleşmesi mi olur?",
+      "sourceRight": "Ortaklık olmaz. Kıymeti yüksek olan az olanın bedelini ödeyip mülkü alır.",
+      "sourceType": "question"
+    }
+  },
+  {
+    "id": "card-50",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "İslam hukukunda yeni bir kişi veya eşyanın, haklar konusunda artık var olmayan diğerinin yerine geçmesine ne ad verilir?",
+    "answer": "Cevap: Halefiyet.\nGerekçe: Bir hukuki sujenin veya objenin, başka bir sujenin veya objenin yerine geçerek onun hak ve borçlarını devralması durumudur. Mirasçının murisin yerine geçmesi veya sigortacının sigortalı yerine hak talep etmesi buna örnektir.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Haklar konusunda var olmayan birinin yerine başkasının geçmesi nedir?",
+      "sourceRight": "Halefiyet",
+      "sourceType": "question"
+    }
+  },
+  {
+    "id": "card-51",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "1800’lerin başında kıtlık çeken Yusuf, çocuklarını doyurmak için Hacı Ömer’in bahçesinden izinsiz meyve alır. Bekçiler Yusuf'u yakalayıp Kadı'ya götürür. Hüküm nedir?",
+    "answer": "Kadı Hükmü: Had cezası verilmez, ancak tazminat şarttır.\nGerekçe: Yusuf günahkar değildir; zira 'Hayat hakkı' mülkiyet hakkından önce gelir. Ancak Mecelle'deki 'Iztırar gayrın hakkını iptal etmez' (Madde 33) kaidesi uyarınca, Yusuf’un zaruret içinde olması ağanın malının değerini yok saymaz. Yusuf, yediği meyvelerin bedelini Hacı Ömer'e tazmin etmekle yükümlüdür.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Aç kalan Yusuf, Hacı Ömer'in bahçesinden meyve yer. Hayat hakkı mı mülkiyet mi üstündür?",
+      "sourceRight": "Hayat hakkı üstündür, ceza verilmez. Ancak 'Iztırar gayrın hakkını iptal etmez' gereği mal bedeli tazmin edilir.",
+      "sourceType": "question"
+    }
   }
 ];
 
