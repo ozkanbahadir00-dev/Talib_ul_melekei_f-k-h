@@ -586,7 +586,7 @@ export const studyCards: StudyCard[] = [
     }
   },
   {
-    "id": "card-44",
+    "id": "card-43",
     "mode": "question",
     "badge": "SORU",
     "shown": "Mahmut, tapulu arsasında Osmanlı döneminden kalma bir kese altın bulur. Nurettin olaya şahit olur ve Kadı'ya ihbar eder. Mahmut altınları sahiplenmek ister. Hüküm nedir?",
