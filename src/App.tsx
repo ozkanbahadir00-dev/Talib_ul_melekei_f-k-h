@@ -148,7 +148,10 @@ export default function App() {
         ~ {studyCards.length} terim
       </p>
 
-      <footer className="footer">Fıkıh Terimleri Kartları © 2026</footer>
+      <footer className="footer">
+        Fıkıh Terimleri Kartları © 2026
+        <span className="footer-signature"> · Bahadır_Saü</span>
+      </footer>
     </main>
   );
 }
