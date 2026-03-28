@@ -564,7 +564,7 @@ export const studyCards: StudyCard[] = [
     "mode": "question",
     "badge": "SORU",
     "shown": "Bir bakırcı, elindeki 5 kg eski bakır kazanı, başka bir bakırcıdaki 4 kg yeni yapılmış bakır tencere ile başa baş takas etmek istiyor.\nHanefi ve Şafiilere göre bu faiz midir?",
-    "answer": "Hanefî Kadı Hükmü: Haramdır.\nGerekçe: Şemanda belirttiğin gibi Hanefîlerde illet Vezin (Ağırlık) + Cins Birliğidir. Her ikisi de bakırdır (cins birliği) ve tartıyla satılır (vezin). 5 kg ile 4 kg arasında 1 kg fazlalık olduğu için bu işlem \"Ribâ el-Fadl\" kapsamına girer. Eşitlik şarttır.\nŞâfiî Kadı Hükmü: Caizdir.\nGerekçe: Şâfiîlerde illet Semeniyet (Para olma) veya Ta'm (Gıda) olmasıdır. Bakır ne yenebilir bir gıdadır ne de altın/gümüş gibi yaratılıştan paradır. Bu yüzden miktar farkı faiz oluşturmaz.",
+    "answer": "Hanefî Kadı Hükmü: Haramdır.\nGerekçe: Hanefîlerde illet Vezin (Ağırlık) + Cins Birliğidir. Her ikisi de bakırdır (cins birliği) ve tartıyla satılır (vezin). 5 kg ile 4 kg arasında 1 kg fazlalık olduğu için bu işlem \"Ribâ el-Fadl\" kapsamına girer. Eşitlik şarttır.\nŞâfiî Kadı Hükmü: Caizdir.\nGerekçe: Şâfiîlerde illet Semeniyet (Para olma) veya Ta'm (Gıda) olmasıdır. Bakır ne yenebilir bir gıdadır ne de altın/gümüş gibi yaratılıştan paradır. Bu yüzden miktar farkı faiz oluşturmaz.",
     "reveal": "toggle",
     "original": {
       "sourceLeft": "Bir bakırcı, elindeki 5 kg eski bakır kazanı, başka bir bakırcıdaki 4 kg yeni yapılmış bakır tencere ile başa baş takas etmek istiyor.\nHanefi ve Şaafilere göre bu faiz midir?",
