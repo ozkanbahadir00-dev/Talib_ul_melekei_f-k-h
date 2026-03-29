@@ -340,10 +340,27 @@ body {
   padding: 6px;
   list-style: none;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55);
-  max-height: 320px;
+  max-height: 400px;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #2a3c63 transparent;
+  scrollbar-color: rgba(216, 162, 56, 0.25) transparent;
+}
+
+.search-dropdown::-webkit-scrollbar {
+  width: 5px;
+}
+
+.search-dropdown::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.search-dropdown::-webkit-scrollbar-thumb {
+  background: rgba(216, 162, 56, 0.25);
+  border-radius: 999px;
+}
+
+.search-dropdown::-webkit-scrollbar-thumb:hover {
+  background: rgba(216, 162, 56, 0.45);
 }
 
 .search-no-result {
@@ -432,7 +449,7 @@ body {
 
   .search-dropdown {
     border-radius: 10px;
-    max-height: 260px;
+    max-height: 300px;
   }
 
   .search-item {
