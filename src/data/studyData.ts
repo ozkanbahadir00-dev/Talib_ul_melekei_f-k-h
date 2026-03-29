@@ -688,6 +688,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Hayat hakkı üstündür, ceza verilmez. Ancak 'Iztırar gayrın hakkını iptal etmez' gereği mal bedeli tazmin edilir.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-52",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Zeyd, Bekir’e ait buğdayı izinsiz alıp un haline getirir. Bekir ‘Buğdayımı geri ver’ derken; Zeyd ‘Bu artık un oldu, senin buğdayın yok’ der. Kadı mülkiyeti kime verir?",
+    "answer": "Kadı Hükmü: Mülkiyet Zeyd’e geçer ancak tazminat (bedel) şarttır.\nGerekçe: Buğdayın un olması ‘hukuki tağyir’dir; yani malın ismi ve kullanım amacı kökten değişmiştir. Mal artık eski halini (mânâsını) yitirdiği için Zeyd, Bekir’e buğdayın rayiç bedelini ödemek zorundadır. Zeyd bedeli ödediği veya Bekir onu ibra ettiği an mülkiyet meşru hale gelir; aksi halde Zeyd haram mal tüketmiş sayılır.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "İzinsiz alınan buğday un, iplik kumaş, kereste masa yapılırsa mülkiyet kime ait olur?",
+      "sourceRight": "Malın ismi değiştiği (tağyir) ve eski işlevini (tohumluk vb.) yitirdiği için mülkiyet işleyene geçer. Ancak eski mal sahibine bedeli ödenmeden mülkiyet meşruiyet kazanmaz.",
+      "sourceType": "question"
+    }
   }
 ];
 
