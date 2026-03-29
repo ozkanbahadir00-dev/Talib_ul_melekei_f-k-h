@@ -701,6 +701,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Malın ismi değiştiği (tağyir) ve eski işlevini (tohumluk vb.) yitirdiği için mülkiyet işleyene geçer. Ancak eski mal sahibine bedeli ödenmeden mülkiyet meşruiyet kazanmaz.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-53",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Milk ile mülkiyet arasındaki fark nedir?",
+    "answer": "Cevap: Milk, mülkiyetten daha geniş bir kavram. Milk, mülkiyeti içine alır. Farkı, alacaklar mülkiyete dahil değildir. Ancak milke dahildir. Zira deyne (borç yani alacağa) milkü'd-deyn denir. Kişi ölse bile alacaklısının onun malı üzerinde borç miktarınca milk nitelikli yetkileri bulunmaktadır. Oysa mülkiyet, sadece kişinin zilyedinde bulunan mal varlığını kapsar. Alacakları kapsamaz. Her ikisi de ayn üzerindeki en güçlü yetkilerdir. Milk alacakları da içine alır.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Milk ile mülkiyet arasındaki fark nedir?",
+      "sourceRight": "Milk, mülkiyetten daha geniş bir kavram. Milk, mülkiyeti içine alır. Farkı, alacaklar mülkiyete dahil değildir. Ancak milke dahildir. Zira deyne (borç yani alacağa) milkü'd-deyn denir. Kişi ölse bile alacaklısının onun malı üzerinde borç miktarınca milk nitelikli yetkileri bulunmaktadır. Oysa mülkiyet, sadece kişinin zilyedinde bulunan mal varlığını kapsar. Alacakları kapsamaz. Her ikisi de ayn üzerindeki en güçlü yetkilerdir. Milk alacakları da içine alır.",
+      "sourceType": "question"
+    }
   }
 ];
 
