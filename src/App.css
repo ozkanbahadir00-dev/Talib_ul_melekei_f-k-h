@@ -91,6 +91,24 @@ body {
   margin-bottom: 16px;
 }
 
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.card-header .badge {
+  margin-bottom: 0;
+}
+
+.card-number {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8898bb;
+  letter-spacing: 0.08em;
+}
+
 .question {
   margin: 0 0 24px 0;
   font-size: clamp(17px, 2vw, 26px);

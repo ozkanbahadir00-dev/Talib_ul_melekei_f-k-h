@@ -2,27 +2,29 @@ import { useEffect, useRef, useState } from 'react';
 import studyCards from './data/studyData';
 import './App.css';
 
-function getRandomCard(cards: typeof studyCards): typeof studyCards[0] {
-  return cards[Math.floor(Math.random() * cards.length)];
-}
+const sortedCards = [...studyCards].sort((a, b) => {
+  const numA = parseInt(a.id.replace(/\D/g, ''), 10);
+  const numB = parseInt(b.id.replace(/\D/g, ''), 10);
+  return numA - numB;
+});
 
 export default function App() {
-  const [currentCard, setCurrentCard] = useState(() => getRandomCard(studyCards));
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   const [isTouchPrimary, setIsTouchPrimary] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const touchStartY = useRef<number | null>(null);
 
-  const current = currentCard;
+  const current = sortedCards[currentIndex];
   const shouldToggleAnswer = current.reveal === 'toggle';
 
   const nextTerm = () => {
-    setCurrentCard(getRandomCard(studyCards));
+    setCurrentIndex((prev) => (prev + 1) % sortedCards.length);
     setShowAnswer(false);
   };
 
   const previousTerm = () => {
-    setCurrentCard(getRandomCard(studyCards));
+    setCurrentIndex((prev) => (prev - 1 + sortedCards.length) % sortedCards.length);
     setShowAnswer(false);
   };
 
@@ -118,7 +120,10 @@ export default function App() {
 
       <section className="card" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
         <div>
-          <span className="badge">{current.badge}</span>
+          <div className="card-header">
+            <span className="badge">{current.badge}</span>
+            <span className="card-number">#{currentIndex + 1}</span>
+          </div>
           <p className="question">{current.shown}</p>
 
           <div className={`answer ${!shouldToggleAnswer || showAnswer ? 'show' : ''}`}>
@@ -145,7 +150,7 @@ export default function App() {
       <p className="controls-hint">{controlsHint}</p>
 
       <p className="counter">
-        ~ {studyCards.length} terim
+        {currentIndex + 1} / {sortedCards.length} terim
       </p>
 
       <footer className="footer">
