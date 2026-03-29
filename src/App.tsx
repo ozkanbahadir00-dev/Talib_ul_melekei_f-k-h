@@ -2,27 +2,23 @@ import { useEffect, useRef, useState } from 'react';
 import studyCards from './data/studyData';
 import './App.css';
 
-function getRandomCard(cards: typeof studyCards): typeof studyCards[0] {
-  return cards[Math.floor(Math.random() * cards.length)];
-}
-
 export default function App() {
-  const [currentCard, setCurrentCard] = useState(() => getRandomCard(studyCards));
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   const [isTouchPrimary, setIsTouchPrimary] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const touchStartY = useRef<number | null>(null);
 
-  const current = currentCard;
+  const current = studyCards[currentIndex];
   const shouldToggleAnswer = current.reveal === 'toggle';
 
   const nextTerm = () => {
-    setCurrentCard(getRandomCard(studyCards));
+    setCurrentIndex((prev) => (prev + 1) % studyCards.length);
     setShowAnswer(false);
   };
 
   const previousTerm = () => {
-    setCurrentCard(getRandomCard(studyCards));
+    setCurrentIndex((prev) => (prev - 1 + studyCards.length) % studyCards.length);
     setShowAnswer(false);
   };
 
@@ -145,7 +141,7 @@ export default function App() {
       <p className="controls-hint">{controlsHint}</p>
 
       <p className="counter">
-        ~ {studyCards.length} terim
+        {currentIndex + 1} / {studyCards.length}
       </p>
 
       <footer className="footer">
