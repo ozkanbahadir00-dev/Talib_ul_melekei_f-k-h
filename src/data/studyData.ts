@@ -714,6 +714,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Milk, mülkiyetten daha geniş bir kavram. Milk, mülkiyeti içine alır. Farkı, alacaklar mülkiyete dahil değildir. Ancak milke dahildir. Zira deyne (borç yani alacağa) milkü'd-deyn denir. Kişi ölse bile alacaklısının onun malı üzerinde borç miktarınca milk nitelikli yetkileri bulunmaktadır. Oysa mülkiyet, sadece kişinin zilyedinde bulunan mal varlığını kapsar. Alacakları kapsamaz. Her ikisi de ayn üzerindeki en güçlü yetkilerdir. Milk alacakları da içine alır.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-54",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "18. yüzyıl İstanbul sicillerinde, bir şahıs mahalle arasındaki kendi mülkü olan dükkânı 'baruthane' (patlayıcı deposu) olarak kiraya vermek ister. Komşular 'can güvenliğimiz tehlikede' diyerek Kadı'ya başvurur. Kadı bu mülkiyet tasarrufuna müdahale edebilir mi?",
+    "answer": "Kadı Hükmü: Mülk sahibinin bu tasarrufu yasaklanır ve dükkânın baruthane olarak kullanılmasına izin verilmez.\nGerekçe: Şahsi mülkiyet hakkı esas olsa da, toplumun can güvenliği ve huzuru (Allah hakkı/Kamu hakkı) doğrudan tehdit altındadır. Toplum huzur ve düzeninin korunması, fertlerin bu haklara (can ve mal emniyeti) teker teker sahip çıkmasıyla mümkündür. Burada kamu yararı şahsi tasarruftan üstün tutulmuş ve ferdin mülkü üzerindeki yetkisi sınırlandırılmıştır.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "18. yüzyıl İstanbul sicillerinde baruthane davası ve mülkiyetin sınırlandırılması nasıldır?",
+      "sourceRight": "Kamu güvenliği (Allah hakkı) sebebiyle şahsi mülkiyetin tehlikeli kullanımı yasaklanmıştır.",
+      "sourceType": "question"
+    }
   }
 ];
 
