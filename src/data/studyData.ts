@@ -727,7 +727,17 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Kamu güvenliği (Allah hakkı) sebebiyle şahsi mülkiyetin tehlikeli kullanımı yasaklanmıştır.",
       "sourceType": "question"
     }
+  },
+   {
+    "id": "card-56",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Ahmet, husumetlisi Mehmet'in her gün geçtiği umumi bir yola çukur kazar ve üstünü dallarla kapatır. Ertesi gün Mehmet geçerken, hızla gelen bir çocuk Mehmet'e çarpar ve Mehmet kuyuya düşerek kolu kırılır. Tedavi masraflarını kim karşılar?",
+    "answer": "1. Ahmet'in Durumu (Mütesebbib - Sebebi Hazırlayan): Ahmet, umumi bir yola (kamu malı) izinsiz çukur kazarak ve üzerini örterek 'Taaddî' (haddi aşma/haksız fiil) işlemiştir. Normal şartlarda, biri o kuyuya doğrudan düşseydi tüm sorumluluk Ahmet'e ait olurdu.\n\n2. Çocuğun Durumu (Mübaşir - Fiili İşleyen): Burada araya 'müstakil bir irade' girmiştir. Mehmet kuyuya kendi kendine veya Ahmet'in itmesiyle değil, çocuğun çarpmasıyla düşmüştür. İslam hukukundaki genel kaide şudur: Mübaşir ile mütesebbib bir arada olduğunda tazmin yükümlülüğü mübaşir'e (doğrudan çarpana) ait olur.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Umumi yola kuyu kazan Ahmet mi, yoksa Mehmet'i kuyuya iten çocuk mu tazminat öder?",
+      "sourceRight": "Mübaşir (çocuk) ile mütesebbib (Ahmet) bir arada olduğunda sorumluluk mübaşire aittir.",
+      "sourceType": "question"
+    }
   }
-];
-
-export default studyCards;
