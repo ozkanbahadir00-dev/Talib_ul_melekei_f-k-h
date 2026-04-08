@@ -742,3 +742,5 @@ export const studyCards: StudyCard[] = [
     }
   }
 ];
+
+export default studyCards;
