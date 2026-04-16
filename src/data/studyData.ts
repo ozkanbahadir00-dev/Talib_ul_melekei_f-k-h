@@ -753,6 +753,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Evet, iade edebilir. Neden? Bahadır, İslam hukukundaki 'görme muhayyerliği' (veya numuneye uygunluk hakkı) ilkesini kullanarak ürünleri iade etme hakkına sahiptir. Alınan mallar, başlangıçta gösterilen örneğe veya üzerinde anlaşılan niteliklere uymadığı takdirde alıcı satışı iptal edebilir.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-57",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Vosıd, satıcı Ali'den 1000 TL karşılığında bir ceket almak ister ve anlaşırlar. Ancak Ali, 'Bu ceketi başka bir müşteri daha istiyor; eğer iki gün içinde parayı getirmezsen ceketi senden geri alırım,' diyerek bir şart (hıyaru'ş-şart) koşar. Vosıd kabul eder. Ertesi gün parayı götürürken ceket bir şekilde zayi olur. Bu durumda ceketin rayiç bedeli mi yoksa anlaşılan satış bedeli mi ödenir?",
+    "answer": "Rayiç bedel ödenir.\n\nNeden?\nBurada şartı koşan kişi satıcıdır. Satıcının şart koştuğu durumlarda mal, müşterinin elinde emanet hükmündedir ancak 'daman' (tazmin sorumluluğu) sorumluluğu devam eder. Bu sebeple Vosıd, kusuru olsun ya da olmasın, malın mülkiyetine değil piyasa değerine (kıymetine) göre tazminat ödemekle yükümlüdür.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Vosıd, satıcı Ali'den 1000 TL karşılığında bir ceket almak ister ve anlaşırlar. Ancak Ali, 'Bu ceketi başka bir müşteri daha istiyor; eğer iki gün içinde parayı getirmezsen ceketi senden geri alırım,' diyerek bir şart (hıyaru'ş-şart) koşar. Vosıd kabul eder. Ertesi gün parayı götürürken ceket bir şekilde zayi olur. Soru: Bu durumda ceketin rayiç bedeli mi yoksa anlaşılan satış bedeli mi ödenir?",
+      "sourceRight": "Cevap: Rayiç bedel ödenir. Neden? Burada şartı koşan kişi satıcıdır. Satıcının şart koştuğu durumlarda mal, müşterinin elinde emanet hükmündedir ancak 'daman' (tazmin sorumluluğu) sorumluluğu devam eder. Bu sebeple Vosıd, kusuru olsun ya da olmasın, malın mülkiyetine değil piyasa değerine (kıymetine) göre tazminat ödemekle yükümlüdür.",
+      "sourceType": "question"
+    }
   }
 ];
 
