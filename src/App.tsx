@@ -25,7 +25,7 @@ function highlight(text: string, query: string): string {
 const sortedCards = [...studyCards].sort((a, b) => {
   const numA = parseInt(a.id.replace(/\D/g, ''), 10);
   const numB = parseInt(b.id.replace(/\D/g, ''), 10);
-  return numA - numB;
+  return numB - numA;
 });
 
 export default function App() {
