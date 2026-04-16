@@ -740,6 +740,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Mübaşir (çocuk) ile mütesebbib (Ahmet) bir arada olduğunda sorumluluk mübaşire aittir.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-56",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Bahadır, Faik'ten 100 adet Bargello marka parfüm almak ister. Faik, bir deneme ürünü (tester) gönderir. Bahadır kokuyu beğenir ve 100 adet parfümü satın alır. Ancak ürünleri teslim aldığında, 20 tanesinin tester ile aynı olmadığını, different olduğunu fark eder. Bahadır bu parfümleri iade edebilir mi?",
+    "answer": "Evet, iade edebilir.\n\nNeden?\nBahadır, İslam hukukundaki 'görme muhayyerliği' (veya numuneye uygunluk hakkı) ilkesini kullanarak ürünleri iade etme hakkına sahiptir. Alınan mallar, başlangıçta gösterilen örneğe veya üzerinde anlaşılan niteliklere uymadığı takdirde alıcı satışı iptal edebilir.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Bahadır, Faik'ten 100 adet Bargello marka parfüm almak ister. Faik, bir deneme ürünü (tester) gönderir. Bahadır kokuyu beğenir ve 100 adet parfümü satın alır. Ancak ürünleri teslim aldığında, 20 tanesinin tester ile aynı olmadığını, farklı olduğunu fark eder. Bahadır bu parfümleri iade edebilir mi?",
+      "sourceRight": "Evet, iade edebilir. Neden? Bahadır, İslam hukukundaki 'görme muhayyerliği' (veya numuneye uygunluk hakkı) ilkesini kullanarak ürünleri iade etme hakkına sahiptir. Alınan mallar, başlangıçta gösterilen örneğe veya üzerinde anlaşılan niteliklere uymadığı takdirde alıcı satışı iptal edebilir.",
+      "sourceType": "question"
+    }
   }
 ];
 
