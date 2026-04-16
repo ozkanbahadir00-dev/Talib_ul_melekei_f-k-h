@@ -729,7 +729,7 @@ export const studyCards: StudyCard[] = [
     }
   },
    {
-    "id": "card-56",
+    "id": "card-55",
     "mode": "question",
     "badge": "SORU",
     "shown": "Ahmet, husumetlisi Mehmet'in her gün geçtiği umumi bir yola çukur kazar ve üstünü dallarla kapatır. Ertesi gün Mehmet geçerken, hızla gelen bir çocuk Mehmet'e çarpar ve Mehmet kuyuya düşerek kolu kırılır. Tedavi masraflarını kim karşılar?",
