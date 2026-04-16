@@ -766,6 +766,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Cevap: Rayiç bedel ödenir. Neden? Burada şartı koşan kişi satıcıdır. Satıcının şart koştuğu durumlarda mal, müşterinin elinde emanet hükmündedir ancak 'daman' (tazmin sorumluluğu) sorumluluğu devam eder. Bu sebeple Vosıd, kusuru olsun ya da olmasın, malın mülkiyetine değil piyasa değerine (kıymetine) göre tazminat ödemekle yükümlüdür.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-58",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Ayşe, bayram için kendisine bir elbise almak üzere çarşıya çıkar. Zübeyde Hanım'ın dükkanında 1000 TL değerinde bir elbise beğenir. Ancak Ayşe, 'Denemeden almam,' diyerek bir şart koşar. Elbiseyi denediği sırada elbise kazara yırtılır. Ayşe, elbisenin rayiç (piyasa) bedelini mi yoksa satıcının belirlediği satış fiyatını (semen) mı ödemelidir?",
+    "answer": "Ayşe'nin, satıcıyla anlaştığı 1000 TL'yi (semeni) ödemesi gerekir.\n\nNeden?\nMüşteri (Ayşe) satın alma şartı koştuğu için, fıkhi açıdan mülkiyet satıcıdan çıkmış ve müşteriye geçmiştir. Bu nedenle malın zayi olması durumunda, anlaşılan bedelin ödenmesi gerekir. Ebu Hanife'ye göre mülkiyet henüz tam olarak el değiştirmediği için rayiç bedel ödenmelidir; ancak İmameyn'in (Ebu Yusuf ve İmam Muhammed) 'semen ödenir' görüşü uygulamada daha esas alınmıştır.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Ayşe, bayram için kendisine bir elbise almak üzere çarşıya çıkar. Zübeyde Hanım'ın dükkanında tam istediği gibi, 1000 TL değerinde bir elbise beğenir. Ancak Ayşe, 'Denemeden almam,' diyerek bir şart koşar. Elbiseyi denediği sırada elbise kazara yırtılır. Soru: Ayşe, elbisenin rayiç (piyasa) bedelini mi yoksa satıcının belirlediği satış fiyatını (semen) mı ödemelidir?",
+      "sourceRight": "Cevap: Ayşe'nin, satıcıyla anlaştığı 1000 TL'yi (semeni) ödemesi gerekir. Neden? Müşteri (Ayşe) satın alma şartı koştuğu için, fıkhi açıdan mülkiyet satıcıdan çıkmış ve müşteriye geçmiştir. Bu nedenle malın zayi olması durumunda, anlaşılan bedelin ödenmesi gerekir. Ebu Hanife'ye göre mülkiyet henüz tam olarak el değiştirmediği için rayiç bedel ödenmelidir; ancak İmameyn'in (Ebu Yusuf ve İmam Muhammed) 'semen ödenir' görüşü uygulamada daha esas alınmıştır.",
+      "sourceType": "question"
+    }
   }
 ];
 
