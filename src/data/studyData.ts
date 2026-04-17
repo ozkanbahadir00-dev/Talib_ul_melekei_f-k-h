@@ -779,6 +779,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Cevap: Ayşe'nin, satıcıyla anlaştığı 1000 TL'yi (semeni) ödemesi gerekir. Neden? Müşteri (Ayşe) satın alma şartı koştuğu için, fıkhi açıdan mülkiyet satıcıdan çıkmış ve müşteriye geçmiştir. Bu nedenle malın zayi olması durumunda, anlaşılan bedelin ödenmesi gerekir. Ebu Hanife'ye göre mülkiyet henüz tam olarak el değiştirmediği için rayiç bedel ödenmelidir; ancak İmameyn'in (Ebu Yusuf ve İmam Muhammed) 'semen ödenir' görüşü uygulamada daha esas alınmıştır.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-59",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Tüccar Selim, toptancı Yakup'tan aldığı kumaşları terzi Rıfat'a satmıştır. Terzi kumaştaki üretim hatasını fark edip tüccara geri getirmiştir. Tüccar kumaşı kendi rızasıyla geri almış, sonra da toptancıya götürüp iade etmek istemiştir. Toptancı bu iadeyi kabul etmek zorunda mıdır?",
+    "answer": "Hayır, bu malı geri almak zorunda değildir.\n\nNeden?\nEğer aracı müşteri (Tüccar), son müşteriden (Terzi) malı kendi rızasıyla (mahkeme kararı olmadan) geri almışsa, bu işlem tüccar ile terzi arasında yeni bir 'alım-satım' hükmündedir ve ilk satıcıyı (Toptancı) bağlamaz. Ancak terzi mahkemeye başvurup kadı kararıyla malı tüccara iade ettirseydi, tüccar da bu mahkeme kararıyla ilk satıcıya gidip malı iade etme hakkına sahip olurdu.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Tüccar Selim , toptancıdan Yakup'tan aldığı kumaşları bir terzi Rıfat'a satmıştır. Terzi kumaştaki üretim hatasını fark edip tüccara geri getirmiştir. Tüccar kumaşı kendi rızasıyla geri almış, sonra da ilk satıcıya (Toptancı) götürüp 'Bak, mal kusurluymuş, ben de geri aldım, şimdi sen de benden geri al' demiştir. Toptancı iadeyi kabul etmek zorunda mıdır?",
+      "sourceRight": "Cevap: Hayır, bu malı geri almak zorunda değildir. Neden? Eğer aracı müşteri (Tüccar ), son müşteriden (Terzi ) malı kendi rızasıyla (mahkeme kararı olmadan) geri almışsa, bu işlem tüccar ile terzi arasında yeni bir 'alım-satım' hükmündedir. İlk satıcıyı (Toptancı) bağlamaz. Ancak terzi mahkemeye başvurup kadı kararıyla malı tüccara iade ettirseydi, tüccar da 'mahkeme kararı' belgesiyle ilk satıcıya gidip malı iade etme hakkına sahip olurdu.",
+      "sourceType": "question"
+    }
   }
 ];
 
