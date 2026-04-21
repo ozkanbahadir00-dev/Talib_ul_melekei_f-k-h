@@ -783,6 +783,19 @@ export const studyCards: StudyCard[] = [
   {
     "id": "card-59",
     "mode": "question",
+    "badge": "TERİM",
+    "shown": "İzale etme, ortadan kaldırma anlamına gelir. Mukaveleyi ve sözleşmeyi ortadan kaldırma, bozmak demektir. Bu kavram nedir?",
+    "answer": "İkale",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "İzale etme, ortadan kaldırma anlamına gelir. Mukaveleyi ve sözleşmeyi ortadan kaldırma, bozmak demektir.",
+      "sourceRight": "İkale",
+      "sourceType": "plain"
+    }
+  },
+  {
+    "id": "card-60",
+    "mode": "question",
     "badge": "SORU",
     "shown": "Tüccar Selim, toptancı Yakup'tan aldığı kumaşları terzi Rıfat'a satmıştır. Terzi kumaştaki üretim hatasını fark edip tüccara geri getirmiştir. Tüccar kumaşı kendi rızasıyla geri almış, sonra da toptancıya götürüp iade etmek istemiştir. Toptancı bu iadeyi kabul etmek zorunda mıdır?",
     "answer": "Hayır, bu malı geri almak zorunda değildir.\n\nNeden?\nEğer aracı müşteri (Tüccar), son müşteriden (Terzi) malı kendi rızasıyla (mahkeme kararı olmadan) geri almışsa, bu işlem tüccar ile terzi arasında yeni bir 'alım-satım' hükmündedir ve ilk satıcıyı (Toptancı) bağlamaz. Ancak terzi mahkemeye başvurup kadı kararıyla malı tüccara iade ettirseydi, tüccar da bu mahkeme kararıyla ilk satıcıya gidip malı iade etme hakkına sahip olurdu.",
@@ -794,15 +807,15 @@ export const studyCards: StudyCard[] = [
     }
   },
   {
-    "id": "card-62",
+    "id": "card-61",
     "mode": "question",
     "badge": "SORU",
-    "shown": "Yahya'nın piyasaya 100 bin TL borcu var ancak işleri batmış. Üzerinde sadece başını soktuğu mütevazı bir evi ve günlük yaşantısını sürdürecek temel eşyaları var. Alacaklılar Yahya'yı mahkemeye verir. Bu durumda hapis ve haciz talepleri nasıl değerlendirilir?",
-    "answer": "1. Hapis Talebi:\nKadı, Yahya'nın gerçekten ödeme gücü olmadığını tespit eder ve Yahya kesinlikle hapsedilmez. Gerekçe: İslam'da hapis, bedene eziyet için değil, gizlenen parayı ortaya çıkarmak içindir. Olmayan para hapiste de çıkmayacağı için Yahya'yı hapsetmek anlamsızdır ve zulümdür.\n\n2. Haciz Talebi:\nAlacaklılar evini ve eşyasını satmak isterse Kadı bunu da reddeder. Gerekçe: Borçlunun 'asli ihtiyaçları' haczedilemez.\n\nSonuç:\nYahya'ya malvarlığı edinebilmesi için mühlet (vade) verilir. Alacaklılar beklemek zorundadır.",
+    "shown": "Sarraf Kenan ile Tüccar İbrahim, 100 altın karşılığında 1000 dirhem gümüş takası (sarf akdi) yapmışlardır. Ertesi gün ticaretten vazgeçip işlemi karşılıklı bozmaya (ikâle) karar verirler. Kenan 1000 dirhem gümüşü hemen İbrahim'e iade eder. Ancak İbrahim kesesini açtığında yanında sadece 50 altın olduğunu fark eder. \"50 altını şimdi vereyim, kalan 50'yi yarın dükkânına getiririm\" der ve ayrılırlar. Bu ikâlenin fıkhi durumu nedir?",
+    "answer": "İkâle sadece peşin iade edilen (kabz edilen) 50 altınlık kısım için geçerli (sahih) olur; yarına bırakılan 50 altınlık kısım için ise ikâle geçersizdir (bâtıldır).\n\nNeden?\nSarf akdinin ikâlesinde her iki bedelin aynı mecliste ve aynı anda el değiştirmesi şarttır. Geciken kısma vade (nesîe) faizi karışma ihtimali doğar. Bu yüzden Kadı, mecliste hazır bulunan miktar kadar işlemi bozar, kalan miktar için eski satış akdinin devam ettiğine hükmeder.",
     "reveal": "toggle",
     "original": {
-      "sourceLeft": "Yahya'nın piyasaya 100 bin TL borcu var ancak işleri batmış. Üzerinde sadece başını soktuğu mütevazı bir evi ve günlük yaşantısını sürdürecek temel eşyaları var. Alacaklılar Yahya'yı mahkemeye verir. Bu durumda ne yapılır?",
-      "sourceRight": "Hapis talebi reddedilir (hapis eziyet için değil parayı çıkarmak içindir). Haciz talebi reddedilir (asli ihtiyaçlar haczedilemez). Yahya'ya mühlet verilir.",
+      "sourceLeft": "Sarraf Kenan ile Tüccar İbrahim, 100 altın karşılığında 1000 dirhem gümüş takası (sarf akdi) yapmışlardır. Ertesi gün ticaretten vazgeçip işlemi karşılıklı bozmaya (ikâle) karar verirler. Musa 1000 dirhem gümüşü hemen İbrahim'e iade eder. Ancak İbrahim kesesini açtığında yanında sadece 50 altın olduğunu fark eder. \"50 altını şimdi vereyim, kalan 50'yi yarın dükkânına getiririm\" der ve ayrılırlar. Bu ikâlenin fıkhi durumu nedir?",
+      "sourceRight": "Cevap: İkâle sadece peşin iade edilen (kabz edilen) 50 altınlık kısım için geçerli (sahih) olur; yarına bırakılan 50 altınlık kısım için ise ikâle geçersizdir (bâtıldır). Neden? Sarf akdinin ikâlesinde her iki bedelin aynı mecliste ve aynı anda el değiştirmesi şarttır. Geciken kısma vade (nesîe) faizi karışma ihtimali doğar. Bu yüzden Kadı, mecliste hazır bulunan miktar kadar işlemi bozar, kalan miktar için eski satış akdinin devam ettiğine hükmeder.",
       "sourceType": "question"
     }
   }
