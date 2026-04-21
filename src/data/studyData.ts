@@ -792,6 +792,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Cevap: Hayır, bu malı geri almak zorunda değildir. Neden? Eğer aracı müşteri (Tüccar ), son müşteriden (Terzi ) malı kendi rızasıyla (mahkeme kararı olmadan) geri almışsa, bu işlem tüccar ile terzi arasında yeni bir 'alım-satım' hükmündedir. İlk satıcıyı (Toptancı) bağlamaz. Ancak terzi mahkemeye başvurup kadı kararıyla malı tüccara iade ettirseydi, tüccar da 'mahkeme kararı' belgesiyle ilk satıcıya gidip malı iade etme hakkına sahip olurdu.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-61",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Sarraf Kenan ile Tüccar İbrahim, 100 altın karşılığında 1000 dirhem gümüş takası (sarf akdi) yapmışlardır. Ertesi gün ticaretten vazgeçip işlemi karşılıklı bozmaya (ikâle) karar verirler. Kenan 1000 dirhem gümüşü hemen İbrahim'e iade eder. Ancak İbrahim kesesini açtığında yanında sadece 50 altın olduğunu fark eder. \"50 altını şimdi vereyim, kalan 50'yi yarın dükkânına getiririm\" der ve ayrılırlar. Bu ikâlenin fıkhi durumu nedir?",
+    "answer": "İkâle sadece peşin iade edilen (kabz edilen) 50 altınlık kısım için geçerli (sahih) olur; yarına bırakılan 50 altınlık kısım için ise ikâle geçersizdir (bâtıldır).\n\nNeden?\nSarf akdinin ikâlesinde her iki bedelin aynı mecliste ve aynı anda el değiştirmesi şarttır. Geciken kısma vade (nesîe) faizi karışma ihtimali doğar. Bu yüzden Kadı, mecliste hazır bulunan miktar kadar işlemi bozar, kalan miktar için eski satış akdinin devam ettiğine hükmeder.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Sarraf Kenan ile Tüccar İbrahim, 100 altın karşılığında 1000 dirhem gümüş takası (sarf akdi) yapmışlardır. Ertesi gün ticaretten vazgeçip işlemi karşılıklı bozmaya (ikâle) karar verirler. Musa 1000 dirhem gümüşü hemen İbrahim'e iade eder. Ancak İbrahim kesesini açtığında yanında sadece 50 altın olduğunu fark eder. \"50 altını şimdi vereyim, kalan 50'yi yarın dükkânına getiririm\" der ve ayrılırlar. Bu ikâlenin fıkhi durumu nedir?",
+      "sourceRight": "Cevap: İkâle sadece peşin iade edilen (kabz edilen) 50 altınlık kısım için geçerli (sahih) olur; yarına bırakılan 50 altınlık kısım için ise ikâle geçersizdir (bâtıldır). Neden? Sarf akdinin ikâlesinde her iki bedelin aynı mecliste ve aynı anda el değiştirmesi şarttır. Geciken kısma vade (nesîe) faizi karışma ihtimali doğar. Bu yüzden Kadı, mecliste hazır bulunan miktar kadar işlemi bozar, kalan miktar için eski satış akdinin devam ettiğine hükmeder.",
+      "sourceType": "question"
+    }
   }
 ];
 
