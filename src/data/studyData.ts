@@ -783,6 +783,19 @@ export const studyCards: StudyCard[] = [
   {
     "id": "card-59",
     "mode": "question",
+    "badge": "TERİM",
+    "shown": "İzale etme, ortadan kaldırma anlamına gelir. Mukaveleyi ve sözleşmeyi ortadan kaldırma, bozmak demektir. Bu kavram nedir?",
+    "answer": "İkale",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "İzale etme, ortadan kaldırma anlamına gelir. Mukaveleyi ve sözleşmeyi ortadan kaldırma, bozmak demektir.",
+      "sourceRight": "İkale",
+      "sourceType": "plain"
+    }
+  },
+  {
+    "id": "card-60",
+    "mode": "question",
     "badge": "SORU",
     "shown": "Tüccar Selim, toptancı Yakup'tan aldığı kumaşları terzi Rıfat'a satmıştır. Terzi kumaştaki üretim hatasını fark edip tüccara geri getirmiştir. Tüccar kumaşı kendi rızasıyla geri almış, sonra da toptancıya götürüp iade etmek istemiştir. Toptancı bu iadeyi kabul etmek zorunda mıdır?",
     "answer": "Hayır, bu malı geri almak zorunda değildir.\n\nNeden?\nEğer aracı müşteri (Tüccar), son müşteriden (Terzi) malı kendi rızasıyla (mahkeme kararı olmadan) geri almışsa, bu işlem tüccar ile terzi arasında yeni bir 'alım-satım' hükmündedir ve ilk satıcıyı (Toptancı) bağlamaz. Ancak terzi mahkemeye başvurup kadı kararıyla malı tüccara iade ettirseydi, tüccar da bu mahkeme kararıyla ilk satıcıya gidip malı iade etme hakkına sahip olurdu.",
