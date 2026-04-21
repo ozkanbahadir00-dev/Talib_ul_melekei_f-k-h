@@ -792,6 +792,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Cevap: Hayır, bu malı geri almak zorunda değildir. Neden? Eğer aracı müşteri (Tüccar ), son müşteriden (Terzi ) malı kendi rızasıyla (mahkeme kararı olmadan) geri almışsa, bu işlem tüccar ile terzi arasında yeni bir 'alım-satım' hükmündedir. İlk satıcıyı (Toptancı) bağlamaz. Ancak terzi mahkemeye başvurup kadı kararıyla malı tüccara iade ettirseydi, tüccar da 'mahkeme kararı' belgesiyle ilk satıcıya gidip malı iade etme hakkına sahip olurdu.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-60",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Kumaş tüccarı Yakup, toptancıdan aldığı malları iade edip akdi bozmak ister. Toptancının dükkânına girip, 'Aramızdaki satışı ikâle edelim, malını geri al' der. Toptancı o an cevap vermez, dükkândan çıkıp depoya gider, malları sayar, bir saat sonra dükkâna dönüp 'Tamam, teklifini kabul ettim' der. Yakup ise bu arada beklemekten sıkılıp teklifinden vazgeçmiştir. Bu ikâle gerçekleşmiş sayılır mı?",
+    "answer": "Hayır, ikâle gerçekleşmiş sayılmaz.\n\nNeden?\nİkâlenin rüknü icap ve kabuldür ve satım akdinde olduğu gibi burada da 'Meclis Birliği' şarttır. Yakup teklifi (icap) yaptıktan sonra toptancının dükkândan çıkıp başka işlerle meşgul olması (araya zaman ve mekan girmesi) meclisi değiştirmiştir. Meclis değiştiği için toptancının sonradan yaptığı kabul geçersizdir.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Soru (Vaka): Kumaş tüccarı Yakup, toptancıdan aldığı malları iade edip akdi bozmak ister. Toptancının dükkânına girip, 'Aramızdaki satışı ikâle edelim, malını geri al' der. Toptancı o an cevap vermez, dükkândan çıkıp depoya gider, malları sayar, bir saat sonra dükkâna dönüp 'Tamam, teklifini kabul ettim' der. Yakup ise bu arada beklemekten sıkılıp teklifinden vazgeçmiştir. Bu ikâle gerçekleşmiş sayılır mı?",
+      "sourceRight": "Cevap: Hayır, ikâle gerçekleşmiş sayılmaz. Neden? İkâlenin rüknü icap ve kabuldür ve satım akdinde olduğu gibi burada da 'Meclis Birliği' şarttır. Yakup teklifi (icap) yaptıktan sonra toptancının dükkândan çıkıp başka işlerle meşgul olması (araya zaman ve mekan girmesi) meclisi değiştirmiştir. Meclis değiştiği için toptancının sonradan yaptığı kabul geçersizdir.",
+      "sourceType": "question"
+    }
   }
 ];
 
