@@ -883,6 +883,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "İstibdal",
       "sourceType": "plain"
     }
+  },
+  {
+    "id": "card-67",
+    "mode": "question",
+    "badge": "TERIM",
+    "shown": "Yeni bir unsur ile borcun değişmesi, tarafların anlaşması ile eski borcun, yerini yeni bir borca bırakmasına ne ad verilir?",
+    "answer": "Tecdit",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Yeni bir unsur ile borcun değişmesi, tarafların anlaşması ile eski borcun, yerini yeni bir borca bırakması.",
+      "sourceRight": "Tecdit",
+      "sourceType": "plain"
+    }
   }
 ];
 
