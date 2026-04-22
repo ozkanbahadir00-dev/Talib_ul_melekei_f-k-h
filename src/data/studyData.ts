@@ -844,6 +844,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Hapis talebi reddedilir (hapis eziyet için değil parayı çıkarmak içindir). Haciz talebi reddedilir (asli ihtiyaçlar haczedilemez). Yahya'ya mühlet verilir.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-64",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Berat'ın piyasaya 500 bin TL borcu var. Bankada parası, fazladan tarlaları ve lüks malları var ama 'Ödemiyorum' diyerek alacaklıları oyalıyor. Alacaklılar Berat'ı mahkemeye verir. Bu durumda nasıl bir yol izlenir? Mezheplere göre değerlendiriniz.",
+    "answer": "Bu durumda ödeme gücü olduğu halde borcunu ödemeyen (mütemerrid) borçluya yaptırımlar uygulanır. Ancak uygulama sırası mezheplere göre değişir:\n\n**Hanefi ve Hanbeli Mezhebi (Sıralama: Hacir ➔ Hapis ➔ Haciz):**\nOnlara göre devlet bir adamın malını zorla satmaya hemen girişmemelidir, mülkiyete müdahale en son çaredir. Önce malı kaçırmasın diye hacir konur. Sonra inatçılığını kırmak için hapse atılır. Adam hapiste yatmaya razı olup parayı inatla ödemiyorsa, son çare olarak mallarına haciz konur ve satılır.\n\n**Maliki ve Şafii Mezhebi (Sıralama: Hacir ➔ Haciz ➔ Hapis):**\nOnlara göre ise asıl olan borcun ödenmesidir, adamı hapiste çürütmenin alemi yoktur. Önce mal kaçırmasını önlemek için hacir konur. Ardından adam hapse atılmadan doğrudan mallarına haciz konur ve satılarak borç ödenir. Eğer mallar borcu karşılamazsa veya gizlediği başka paralar olduğu düşünülüyorsa, o zaman kalan kısmı ödemeye zorlamak için hapse atılır.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Berat'ın piyasaya 500 bin TL borcu var. Bankada parası, fazladan tarlaları ve lüks malları var ama 'Ödemiyorum' diyerek alacaklıları oyalıyor. Alacaklılar Berat'ı mahkemeye verir. Bu durumda nasıl bir yol izlenir her iki mezhebe göre değerlendirelim.",
+      "sourceRight": "Hanefi/Hanbeli: Hacir -&gt; Hapis -&gt; Haciz. Maliki/Şafii: Hacir -&gt; Haciz -&gt; Hapis.",
+      "sourceType": "question"
+    }
   }
 ];
 
