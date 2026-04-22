@@ -857,6 +857,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Hanefi/Hanbeli: Hacir -&gt; Hapis -&gt; Haciz. Maliki/Şafii: Hacir -&gt; Haciz -&gt; Hapis.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-65",
+    "mode": "question",
+    "badge": "TERIM",
+    "shown": "Borç ilişkisinden kaynaklanan sorumlulukların yerine getirilmesine ne ad verilir?",
+    "answer": "İfa",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Borç ilişkisinden kaynaklanan sorumlulukların yerine getirilmesi",
+      "sourceRight": "İfa",
+      "sourceType": "plain"
+    }
   }
 ];
 
