@@ -870,6 +870,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "İfa",
       "sourceType": "plain"
     }
+  },
+  {
+    "id": "card-66",
+    "mode": "question",
+    "badge": "TERIM",
+    "shown": "İfa yerini tutan eda, tarafların karşılıklı rıza ve anlaşma ile borcun konusunu değiştirmelerine ne ad verilir?",
+    "answer": "İstibdal",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "İfa yerini tutan eda, tarafların karşılıklı rıza ve anlaşma ile borcun konusunu değiştirmeleri.",
+      "sourceRight": "İstibdal",
+      "sourceType": "plain"
+    }
   }
 ];
 
