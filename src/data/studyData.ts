@@ -896,6 +896,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Tecdit",
       "sourceType": "plain"
     }
+  },
+  {
+    "id": "card-68",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Ahmet, ticaret yapmak için bir dükkân kiralar ve bir yıllık sözleşme imzalar. Ancak dükkân, daha ilk ayın sonunda çıkan büyük bir yangın sonucu tamamen kül olur ve kullanılamaz hale gelir. Bu durumda Ahmet kalan ayların kira bedelini ödemek zorunda mıdır ve dükkân sahibinin malı kullandırma sorumluluğu devam eder mi?",
+    "answer": "Hayır, Ahmet kira bedelini ödemek zorunda değildir ve dükkân sahibinin malı sunma borcu sona erer.\n\nNeden?\nİslam hukukunda 'ifanın mümkün olmaması' ilkesi geçerlidir. Kira akdinde kiralanan mal zayi olur ve kiralama amacına uygun olarak kullanımı imkânsız hale gelirse borç düşer. Bu durumda borçlu ifa ile yükümlü tutulamaz; hem kiracının kira bedeli ödeme borcu hem de kiraya verenin malı istifadeye sunma borcu ortadan kalkar.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Kira akdinde malın zayi olması durumunda borçların durumu nedir?",
+      "sourceRight": "İfanın mümkün olmaması sebebiyle borç düşer. Kiracının kira ödeme, kiraya verenin malı sunma borcu sona erer.",
+      "sourceType": "question"
+    }
   }
 ];
 
