@@ -831,6 +831,19 @@ export const studyCards: StudyCard[] = [
       "sourceRight": "Cevap: Hayır, ikâle gerçekleşmiş sayılmaz. Neden? İkâlenin rüknü icap ve kabuldür ve satım akdinde olduğu gibi burada da 'Meclis Birliği' şarttır. Yakup teklifi (icap) yaptıktan sonra toptancının dükkândan çıkıp başka işlerle meşgul olması (araya zaman ve mekan girmesi) meclisi değiştirmiştir. Meclis değiştiği için toptancının sonradan yaptığı kabul geçersizdir.",
       "sourceType": "question"
     }
+  },
+  {
+    "id": "card-63",
+    "mode": "question",
+    "badge": "SORU",
+    "shown": "Yahya'nın piyasaya 100 bin TL borcu var ancak işleri batmış. Üzerinde sadece başını soktuğu mütevazı bir evi ve günlük yaşantısını sürdürecek temel eşyaları var. Alacaklılar Yahya'yı mahkemeye verir. Bu durumda hapis ve haciz talepleri nasıl değerlendirilir?",
+    "answer": "1. Hapis Talebi:\nKadı, Yahya'nın gerçekten ödeme gücü olmadığını tespit eder ve Yahya kesinlikle hapsedilmez. Gerekçe: İslam'da hapis, bedene eziyet için değil, gizlenen parayı ortaya çıkarmak içindir. Olmayan para hapiste de çıkmayacağı için Yahya'yı hapsetmek anlamsızdır ve zulümdür.\n\n2. Haciz Talebi:\nAlacaklılar evini ve eşyasını satmak isterse Kadı bunu da reddeder. Gerekçe: Borçlunun 'asli ihtiyaçları' haczedilemez.\n\nSonuç:\nYahya'ya malvarlığı edinebilmesi için mühlet (vade) verilir. Alacaklılar beklemek zorundadır.",
+    "reveal": "toggle",
+    "original": {
+      "sourceLeft": "Yahya'nın piyasaya 100 bin TL borcu var ancak işleri batmış. Üzerinde sadece başını soktuğu mütevazı bir evi ve günlük yaşantısını sürdürecek temel eşyaları var. Alacaklılar Yahya'yı mahkemeye verir. Bu durumda ne yapılır?",
+      "sourceRight": "Hapis talebi reddedilir (hapis eziyet için değil parayı çıkarmak içindir). Haciz talebi reddedilir (asli ihtiyaçlar haczedilemez). Yahya'ya mühlet verilir.",
+      "sourceType": "question"
+    }
   }
 ];
 
