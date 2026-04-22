@@ -783,7 +783,7 @@ export const studyCards: StudyCard[] = [
   {
     "id": "card-59",
     "mode": "question",
-    "badge": "TERİM",
+    "badge": "TERIM",
     "shown": "İzale etme, ortadan kaldırma anlamına gelir. Mukaveleyi ve sözleşmeyi ortadan kaldırma, bozmak demektir. Bu kavram nedir?",
     "answer": "İkale",
     "reveal": "toggle",
