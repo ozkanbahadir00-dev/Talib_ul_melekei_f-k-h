@@ -76,6 +76,15 @@ body {
   justify-content: space-between;
   margin-bottom: 28px;
   touch-action: pan-y;
+  transition: transform 0.28s ease, box-shadow 0.28s ease, filter 0.28s ease;
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: scale(1.025) translateY(-4px);
+    box-shadow: 0 32px 72px rgba(0, 0, 0, 0.56);
+    filter: brightness(1.07) contrast(1.03);
+  }
 }
 
 .badge {
@@ -595,5 +604,38 @@ body {
   .footer {
     margin-top: 22px;
     font-size: 11px;
+  }
+}
+
+/* Desktop: tanım kartları sol-alt köşe düzeni */
+@media (min-width: 901px) {
+  .screen {
+    align-items: flex-start;
+  }
+
+  .heading {
+    align-self: center;
+    width: 100%;
+  }
+
+  .search-wrap {
+    align-self: center;
+  }
+
+  .card {
+    width: min(600px, 100%);
+    margin-top: auto;
+  }
+
+  .controls-hint {
+    text-align: left;
+  }
+
+  .counter {
+    align-self: flex-start;
+  }
+
+  .footer {
+    align-self: center;
   }
 }
