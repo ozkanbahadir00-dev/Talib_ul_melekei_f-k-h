@@ -63,8 +63,16 @@ body {
   color: #f0d06b;
 }
 
+.card-shell {
+  width: min(920px, 100%);
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
 .card {
-  width: min(860px, 100%);
+  width: 100%;
   border-radius: 18px;
   border: 1px solid var(--card-border);
   background: linear-gradient(180deg, #202a44 0%, #1a2239 100%);
@@ -74,8 +82,24 @@ body {
   flex-direction: column;
   min-height: 560px;
   justify-content: space-between;
-  margin-bottom: 28px;
+  margin-bottom: 0;
   touch-action: pan-y;
+}
+
+.topic-note {
+  width: 140px;
+  flex-shrink: 0;
+  border: 1px solid rgba(216, 162, 56, 0.32);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(216, 162, 56, 0.2) 0%, rgba(216, 162, 56, 0.08) 100%);
+  color: #f2dc97;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 14px 12px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  align-self: flex-start;
 }
 
 .badge {
@@ -481,7 +505,18 @@ body {
     border-radius: 14px;
     padding: 24px 18px;
     min-height: 520px;
+    margin-bottom: 0;
+  }
+
+  .card-shell {
+    gap: 10px;
     margin-bottom: 20px;
+  }
+
+  .topic-note {
+    width: 124px;
+    font-size: 12px;
+    padding: 12px 10px;
   }
 
   .badge {
@@ -554,7 +589,21 @@ body {
     padding: 20px 14px;
     min-height: 480px;
     border-radius: 12px;
+    margin-bottom: 0;
+  }
+
+  .card-shell {
+    flex-direction: column;
+    gap: 8px;
     margin-bottom: 16px;
+  }
+
+  .topic-note {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 10px 12px;
   }
 
   .question {
