@@ -257,40 +257,34 @@ export default function App() {
         )}
       </div>
 
-      <div className="card-shell">
-        <section className="card" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
-          <div>
-            <div className="card-header">
-              <span className="badge">{current.badge}</span>
-              <span className="card-number">#{currentIndex + 1}</span>
-            </div>
-            <p className="question">{current.shown}</p>
+      <section className="card" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
+        <div>
+          <div className="card-header">
+            <span className="badge">{current.badge}</span>
+            <span className="card-number">#{currentIndex + 1}</span>
+          </div>
+          <p className="question">{current.shown}</p>
 
-            <div className={`answer ${!shouldToggleAnswer || showAnswer ? 'show' : ''}`}>
-              <p>{current.answer}</p>
-            </div>
-
-            {shouldToggleAnswer && (
-              <button
-                className="toggle-btn"
-                type="button"
-                onClick={toggleAnswer}
-              >
-                {showAnswer ? 'Cevabı Gizle' : 'Cevabı Göster'}
-              </button>
-            )}
-
+          <div className={`answer ${!shouldToggleAnswer || showAnswer ? 'show' : ''}`}>
+            <p>{current.answer}</p>
           </div>
 
-          <button className="next-btn" type="button" onClick={nextTerm}>
-            Sıradaki Terim <span aria-hidden="true">→</span>
-          </button>
-        </section>
+          {shouldToggleAnswer && (
+            <button
+              className="toggle-btn"
+              type="button"
+              onClick={toggleAnswer}
+            >
+              {showAnswer ? 'Cevabı Gizle' : 'Cevabı Göster'}
+            </button>
+          )}
 
-        <aside className="topic-note">
-          Bu vaka {current.topic} konusuna aittir.
-        </aside>
-      </div>
+        </div>
+
+        <button className="next-btn" type="button" onClick={nextTerm}>
+          Sıradaki Terim <span aria-hidden="true">→</span>
+        </button>
+      </section>
 
       <p className="controls-hint">{controlsHint}</p>
 
