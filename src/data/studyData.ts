@@ -140,7 +140,7 @@ export const studyCards: StudyCard[] = [
     }
   },
   {
-    "id": "card-8",
+    "id": "card-8 Mütekavvim mal",
     "mode": "question",
     "badge": "SORU",
     "shown": "Serdivan'da motorla kuryelik yapan Faik yanlışlıkla yola fırlayan gayrimüslim bir vatandaşın (zımminin) taşıdığı paketi ezdi. Paketin içindeki domuz etleri tamamen ziyan oldu. Adam \"Malımı telef ettin, parasını ödeyeceksin\" diye şikayetçi oldu.\nSen kadı olsan nasıl hüküm verirsin?",
